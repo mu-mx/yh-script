@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         美化网页界面
 // @version      0.0.28
-// @description  美化网页界面
-// @require      https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js
+// @description  自定义的美化网页界面
+// @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js
 // @match        https://www.bilibili.com/*
 // @match        https://cn.bing.com/*
 // @match        https://live.bilibili.com/*
