@@ -1,5 +1,6 @@
 // ==UserScript==
-// @name         美化网页界面
+
+// @name         界面美化
 // @version      0.0.28
 // @description  自定义的美化网页界面
 // @require      https://cdn.bootcdn.net/ajax/libs/jquery/3.6.4/jquery.js
@@ -7,7 +8,6 @@
 // @match        https://cn.bing.com/*
 // @match        https://live.bilibili.com/*
 // @grant        GM_addStyle
-// @license      GPL-3.0
 
 // ==/UserScript==
 
@@ -61,10 +61,10 @@
 
         "live.bilibili.com": () => {
             GM_addStyle(`
-              .side-bar-popup-cntr{bottom:5% !important;height:84% !important;}
-              .section-content-cntr{height:556px !important;}
-              .title-length-limit{max-width:unset !important;}
-          `);
+            .side-bar-popup-cntr{bottom:5% !important;height:84% !important;}
+            .section-content-cntr{height:556px !important;}
+            .title-length-limit{max-width:unset !important;}
+        `);
         },
 
         "cn.bing.com": () => {
@@ -74,8 +74,8 @@
               .b_ans{display:none}
               */
             GM_addStyle(`
-              #b_results{width:60%}
-          `);
+            #b_results{width:60%}
+        `);
 
             document.querySelector(".b_logoArea").setAttribute("target", "");
         },
